@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Segoe UI", sans-serif; 
-  }
-  body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
     background-color: #fff;
     color: #000;
-  }
+}
 
 /* Navbar */
 .navbar {
@@ -24,6 +25,7 @@
     font-weight: bold;
     color: #007bff;
 }
+
 .logo span {
     color: #333;
 }
@@ -42,7 +44,7 @@ nav a {
 
 .profile img {
     width: 50px;
-    padding-right: 1rem ;
+    padding-right: 1rem;
 }
 
 .logout {

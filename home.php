@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ObatFinder - Homepage</title>
     <link rel="stylesheet" href="css/home.css">
 </head>
+
 <body>
     <header>
         <div class="navbar">
@@ -16,7 +18,7 @@
                 <a href="riwayat.php">Riwayat</a>
             </nav>
             <div class="profile">
-            <a href="profil.php"><img src="img/profile.png" alt="Profile"></a>
+                <a href="profil.php"><img src="img/profile.png" alt="Profile"></a>
                 <form method="POST">
                     <button class="logout" name="logout">Logout</button>
                 </form>
@@ -25,21 +27,22 @@
     </header>
 
     <main>
-    <section class="hero">
-  <h2>Temukan Informasi Obat <br> dengan Mudah</h2>
-  <div class="search-bar">
-    <input type="text" name="query" placeholder="Cari nama obat..." onclick="window.location.href='search.php';" readonly>
-    <button type="button" onclick="window.location.href='search.php';">Cari</button>
-  </div>
-</section>
+        <section class="hero">
+            <h2>Temukan Informasi Obat <br> dengan Mudah</h2>
+            <div class="search-bar">
+                <input type="text" name="query" placeholder="Cari nama obat..."
+                    onclick="window.location.href='search.php';" readonly>
+                <button type="button" onclick="window.location.href='search.php';">Cari</button>
+            </div>
+        </section>
 
 
 
         <section class="popular">
             <h3>Daftar Obat Populer</h3>
             <div class="obat-list">
-                <?php 
-                $populer = ['Paracetamol', 'Amoxicillin' ,'Ibuprofen', 'Cetirizine'];
+                <?php
+                $populer = ['Paracetamol', 'Amoxicillin', 'Ibuprofen', 'Cetirizine'];
                 foreach ($populer as $obat) {
                     echo "<div class='obat-card'>
                             <img src='img/$obat.png' alt='$obat'>
@@ -76,7 +79,7 @@
         <section class="saved">
             <h3>Obat yang Kamu Simpan</h3>
             <div class="obat-list">
-                <?php 
+                <?php
                 $saved = ['Paracetamol', 'Ibuprofen', 'Cetirizine'];
                 foreach ($saved as $obat) {
                     echo "<div class='obat-card'>
@@ -108,4 +111,5 @@
         <p class="copyright">Copyright © 2025 ObatFinder</p>
     </footer>
 </body>
+
 </html>

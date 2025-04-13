@@ -57,11 +57,13 @@ $obatData = $dataObat[strtolower($obat)] ?? null;
 
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <title>Detail Obat | ObatFinder</title>
   <link rel="stylesheet" href="css/detail.css">
 </head>
+
 <body>
   <header>
     <div class="navbar">
@@ -92,11 +94,11 @@ $obatData = $dataObat[strtolower($obat)] ?? null;
           <img src="<?= $obatData['gambar'] ?>" alt="<?= $obatData['nama'] ?>">
           <button class="save-btn">Simpan Obat</button>
         </div>
-        
+
         <div class="detail-right">
           <h1 class="obat-title"><?= $obatData['nama'] ?></h1>
           <p class="obat-subtitle"><?= $obatData['sub'] ?></p>
-          
+
           <ul class="info-list">
             <li><strong>Nama Generik:</strong> <?= $obatData['generik'] ?></li>
             <li><strong>Kategori:</strong> <?= $obatData['kategori'] ?></li>
@@ -137,4 +139,5 @@ $obatData = $dataObat[strtolower($obat)] ?? null;
     <p class="copyright">Copyright © 2025 ObatFinder</p>
   </footer>
 </body>
+
 </html>
