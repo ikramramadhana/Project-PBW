@@ -13,7 +13,7 @@
         <div class="navbar">
             <h1 class="logo">Obat<span>Finder</span></h1>
             <nav>
-                <a href="#">Beranda</a>
+                <a href="home.php">Beranda</a>
                 <a href="bookmarks.php">Bookmarks</a>
                 <a href="riwayat.php">Riwayat</a>
             </nav>
