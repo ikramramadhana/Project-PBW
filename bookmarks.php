@@ -31,7 +31,7 @@
     <h3>Obat yang kamu simpan</h3>
 
     <div class="obat-card">
-      <img src="img/Paracetamol.png" alt="Paracetamol">
+      <a href="detail.php?obat=paracetamol" class="detail-link"><img src="img/Paracetamol.png" alt="Paracetamol"></a>
       <div class="obat-info">
         <h4>Paracetamol Kaplet 500 mg</h4>
         <p class="kategori">Pereda demam & nyeri</p>
@@ -46,7 +46,7 @@
     </div>
 
     <div class="obat-card">
-      <img src="img/Ibuprofen.png" alt="Ibuprofen">
+      <a href="detail.php?obat=Ibuprofen" class="detail-link"><img src="img/Ibuprofen.png" alt="Ibuprofen"></a>
       <div class="obat-info">
         <h4>Ibuprofen Kaplet 400 mg</h4>
         <p class="kategori">Pereda nyeri, peradangan & demam</p>
@@ -61,7 +61,7 @@
     </div>
 
     <div class="obat-card">
-      <img src="img/Cetirizine.png" alt="Cetirizine">
+      <a href="detail.php?obat=Cetirizine" class="detail-link"><img src="img/Cetirizine.png" alt="Cetirizine"></a>
       <div class="obat-info">
         <h4>Cetirizine HCl 10 mg</h4>
         <p class="kategori">Pereda Alergi</p>
