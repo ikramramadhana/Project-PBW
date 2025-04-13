@@ -16,7 +16,7 @@
                 <a href="#">Riwayat</a>
             </nav>
             <div class="profile">
-                <a href="#"><img src="user-icon.png" alt="Profile"></a>
+                <a href="#"><img src="img/profile.png" alt="Profile"></a>
                 <form method="POST">
                     <button class="logout" name="logout">Logout</button>
                 </form>
@@ -98,9 +98,9 @@
                 <p>Kopelma Darussalam,<br>Kec. Syiah Kuala,<br>Kota Banda Aceh, Aceh 23111</p>
             </div>
             <div class="contact">
-                <p><img src="icon-email.svg"> ObatFinder@gmail.com</p>
-                <p><img src="icon-ig.svg"> @ObatFinder_id</p>
-                <p><img src="icon-phone.svg"> 0821-6771-5788</p>
+                <p><img src="img/gmail.png"> ObatFinder@gmail.com</p>
+                <p><img src="img/instagram.jpg"> @ObatFinder_id</p>
+                <p><img src="img/phone.png"> 0821-6771-5788</p>
             </div>
         </div>
         <p class="copyright">Copyright © 2025 ObatFinder</p>
