@@ -54,7 +54,7 @@ if (isset($_POST['login'])) {
 
     // Hardcoded login check
     if ($username === "admin" && $password === "admin123") {
-        header("Location: homepage.html");
+        header("Location: home.php");
         exit();
     } else {
         echo "<script>alert('Login gagal! Coba lagi.');</script>";
