@@ -41,6 +41,11 @@ nav a {
     align-items: center;
 }
 
+.profile img {
+    width: 50px;
+    padding-right: 1rem ;
+}
+
 .logout {
     background-color: red;
     color: white;
@@ -191,8 +196,11 @@ footer {
     gap: 0.5rem;
 }
 
+.contact img {
+    width: 20px;
+}
+
 footer p {
-    text-align: center;
     margin-top: 1rem;
     font-size: 0.9rem;
     color: #777;
