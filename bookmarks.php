@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/bookmarks.css">
 </head>
 <body>
-<header>
+    <header>
         <div class="navbar">
             <h1 class="logo">Obat<span>Finder</span></h1>
             <nav>
@@ -52,7 +52,7 @@
         <p><strong>Ibuprofen</strong><br>
         Anti-inflamasi non-steroid (NSAID)<br>
         Dosis: 1 kaplet tiap 6–8 jam, maksimal 3–4 kali/hari<br>
-        Efek Samping: Mual, nyeri perut, pusing, gangguan lambung<br>
+        Efek Samping: Mual, sakit perut, pusing<br>
         Peringatan: Tidak untuk penderita tukak lambung atau gangguan ginjal</p>
         <button class="hapus-btn">Hapus Obat</button>
       </div>
@@ -67,8 +67,8 @@
         <p><strong>Cetirizine</strong><br>
         Antihistamin (anti alergi)<br>
         Dosis: 1 tablet per hari<br>
-        Efek Samping: Kantuk, mulut kering, sakit kepala<br>
-        Peringatan: Tidak disarankan untuk dikonsumsi bersama alkohol atau obat penenang</p>
+        Efek Samping: Mengantuk, mulut kering<br>
+        Peringatan: Hindari penggunaan pada penderita gangguan ginjal</p>
         <button class="hapus-btn">Hapus Obat</button>
       </div>
     </div>
