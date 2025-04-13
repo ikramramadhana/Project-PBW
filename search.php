@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8" />
   <title>Pencarian - ObatFinder</title>
   <link rel="stylesheet" href="css/search.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <!-- Header -->
   <header class="header">
-    <div class="logo">Obat<span class="accent">Finder</span></div>
+    <div class="logo">Obat<span>Finder</span></div>
     <nav>
       <a href="home.php">Beranda</a>
       <a href="bookmarks.php">Bookmarks</a>
@@ -102,4 +104,5 @@
   <!-- Script -->
   <script src="js/filterSearch.js"></script>
 </body>
+
 </html>
