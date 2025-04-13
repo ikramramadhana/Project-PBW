@@ -11,12 +11,12 @@
         <div class="navbar">
             <h1 class="logo">Obat<span>Finder</span></h1>
             <nav>
-                <a href="#">Beranda</a>
-                <a href="#">Bookmarks</a>
-                <a href="#">Riwayat</a>
+                <a href="home.php">Beranda</a>
+                <a href="bookmarks.php">Bookmarks</a>
+                <a href="riwayat.php">Riwayat</a>
             </nav>
             <div class="profile">
-                <a href="#"><img src="img/profile.png" alt="Profile"></a>
+                <a href="profil.php"><img src="img/profile.png" alt="Profile"></a>
                 <form method="POST">
                     <button class="logout" name="logout">Logout</button>
                 </form>

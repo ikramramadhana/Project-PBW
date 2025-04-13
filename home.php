@@ -12,11 +12,11 @@
             <h1 class="logo">Obat<span>Finder</span></h1>
             <nav>
                 <a href="#">Beranda</a>
-                <a href="#">Bookmarks</a>
-                <a href="#">Riwayat</a>
+                <a href="bookmarks.php">Bookmarks</a>
+                <a href="riwayat.php">Riwayat</a>
             </nav>
             <div class="profile">
-                <a href="#"><img src="img/profile.png" alt="Profile"></a>
+            <a href="profil.php"><img src="img/profile.png" alt="Profile"></a>
                 <form method="POST">
                     <button class="logout" name="logout">Logout</button>
                 </form>
@@ -25,13 +25,15 @@
     </header>
 
     <main>
-        <section class="hero">
-            <h2>Temukan Informasi Obat <br> dengan Mudah</h2>
-            <form class="search-bar" method="GET">
-                <input type="text" name="query" placeholder="Cari nama obat...">
-                <button type="submit">Cari</button>
-            </form>
-        </section>
+    <section class="hero">
+  <h2>Temukan Informasi Obat <br> dengan Mudah</h2>
+  <div class="search-bar">
+    <input type="text" name="query" placeholder="Cari nama obat..." onclick="window.location.href='search.php';" readonly>
+    <button type="button" onclick="window.location.href='search.php';">Cari</button>
+  </div>
+</section>
+
+
 
         <section class="popular">
             <h3>Daftar Obat Populer</h3>

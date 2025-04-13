@@ -12,11 +12,11 @@
             <h1 class="logo">Obat<span>Finder</span></h1>
             <nav>
                 <a href="home.php">Beranda</a>
-                <a href="bookmarks.pgp">Bookmarks</a>
+                <a href="bookmarks.php">Bookmarks</a>
                 <a href="riwayat.php">Riwayat</a>
             </nav>
             <div class="profile">
-                <a href="#"><img src="img/profile.png" alt="Profile"></a>
+            <a href="profil.php"><img src="img/profile.png" alt="Profile"></a>
                 <form method="POST">
                     <button class="logout" name="logout">Logout</button>
                 </form>
@@ -40,14 +40,13 @@
         ];
 
         foreach ($riwayat as $r) {
-            $namaFile = strtolower($r['nama']) . ".php";
             echo "
             <div class='riwayat-item'>
               <div>
                 <strong>{$r['nama']}</strong><br>
                 <span class='tanggal'>{$r['tanggal']}</span>
               </div>
-              <a href='namaFile' class='lihat-detail'>Lihat Detail &rsaquo;</a>
+              <a href='detail.php?obat={$r['nama']}' class='lihat-detail'>Lihat Detail &rsaquo;</a>
             </div>";
         }
         ?>
